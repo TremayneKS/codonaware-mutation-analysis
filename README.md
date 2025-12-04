@@ -78,6 +78,9 @@ File: `<base>_pos_frequency_by_effect.png`
 
 Shows total mutation frequency at each nucleotide position with individual mutation events overlaid. Colours and markers in the figure correspond directly to mutation types.
 
+### Per-position mutation frequency
+
+![Frequency plot](aligned_example_gene_pos_frequency_by_effect.png)
 
 ### 2. Top mutation events
 
@@ -85,19 +88,10 @@ File: `<base>_top_effects.png`
 
 A bar plot showing the highest-count mutation events, labelled by nucleotide position and amino-acid mutation.
 
-## Example Output
-
-```
-
-### Per-position mutation frequency
-
-![Frequency plot](aligned_example_gene_pos_frequency_by_effect.png)
-
 ### Top events
 
 ![Top events](aligned_example_gene_top_effects.png)
 
-```
 
 ## Output Files
 
@@ -105,5 +99,3 @@ A bar plot showing the highest-count mutation events, labelled by nucleotide pos
 - `_nt_position_counts.csv` – Count of mutations at each nucleotide position.
 - `_effect_counts.csv` – `(Position, Event, Effect, AA_Mutation) → Count` summary.
 - PNG figures – Mutation frequency plot and top-events barplot.
-
-```
